@@ -203,13 +203,16 @@ footer {
         font-size: 16px;
     }
 
-    nav {
-        gap: 8px 16px;
-    }
+   nav {
+    padding: 16px 20px;
+    gap: 8px 18px;
+    justify-content: flex-start;
+}
 
-    nav a {
-        font-size: 13px;
-    }
+nav a {
+    font-size: 14px;
+    white-space: nowrap;
+}
 
     a {
         max-width: 100%;
